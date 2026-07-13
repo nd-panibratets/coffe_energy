@@ -1,0 +1,72 @@
+:root{
+  --font-playfair: "Playfair Display", serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+h1{
+  color: #363031;
+  font-family: var(--font-playfair);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 125% */
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+   display: inline-block;
+  color: #FFF;
+  background-color: #A36A4F;
+  font-family: var(--font-poppins);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 75% */
+  padding: 24px 48px;
+  border-radius: 36px;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.big-img{
+  border-radius: 440px;
+}
+
+.small-img{
+  border-radius: 317px;
+}
+
+.left p{
+  max-width: 412px;
+  color: #363031;
+  font-family: var(--font-playfair);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header{
+  display: flex;
+}
+
+.cards{
+  display: flex;
+  gap: 96px;
+}
+
